@@ -1,0 +1,56 @@
+header{
+	height: 50px;
+	width: 100%;
+	background: blue;
+	color: white;
+}
+body{
+	background: orange;
+}
+h1{
+	color: white;
+}
+.cuadro1{
+
+	height: 730px;
+	width: 600px;
+	background: black;
+	display: inline-block;	
+}
+.cuadro2{
+	height: 380px;
+	width: 300px;
+	background: #1FE4FF;
+	float: right;
+}
+.cuadro3{
+	height: 380px;
+	width: 300px;
+	background: pink;
+	float: left;
+}
+.cuadro4{
+	margin-top: 1px;
+	height: 300px;
+	width: 300px;
+	background: #F7C75E;
+	float: left;
+}
+.cuadro5{
+	margin-top: 1px;
+	height: 300px;
+	width: 300px;
+	background: #6AE04A;
+	float: right;
+}
+p{
+	color: white;
+	display: inline-block;
+}
+img{
+	height: 100px;
+	width: auto;
+}
+.izquierda{
+	float: left;
+}

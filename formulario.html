@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<script src="funcion.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilos.css">	
+	<meta charset="utf-8">
+</head>
+<body>
+	<center><header><h1>Página de con divición de panel</h1></header></center>
+	<center><h1>Mi primer formulario</h1></center>
+	<center><div class="cuadro1">
+		<div class="cuadro3"><br><br><br>
+		<center><form name="registro">
+		<!--<label>Nombre:</label><br>-->
+		<input type="text" name="Nombre" id="nombre" placeholder="Nombre"><br><br>
+		<!--<label>Apellido:</label><br>-->
+		<input type="text" name="Apellido" id="apellido" placeholder="Apellido"><br><br>
+		<!--<label>Correo:</label><br>-->
+		<input type="gmail" name="correo" id="correo" placeholder="Correo"><br><br>
+
+		<input type="password" name="contraseña" id="contraseña" placeholder="contraseña"><br><br>
+		
+		<textarea id="comentario" placeholder="comentario"></textarea><br>
+		
+		<input type="checkbox" name="hola" id="saludo">hola<br>
+		
+		<input type="radio" name="estudios" value="4">Universitario
+		<input type="radio" name="estudios" value="4">pre-Universitario<br><br>
+		<select name="pais">			
+			<option value="3">México</option>
+			<option value="4">Guatemala</option>			
+		</select><br><br>
+		<input type="button" value="enviar" onclick="datos();">
+		<input type="reset" value="borrar"><br>
+	   </div>
+		<div class="cuadro2">
+			<P>Datos</P><br>
+		<input type="text"  id="nombreobtenido"><br><br>
+		<input type="text"  id="apellido2"><br><br>
+		<input type="email"  id="correo2"><br><br>
+		<input type="password" id="contraseña2"><br><br>
+		<textarea id="comentario2"></textarea><br>
+		<input type="checkbox" name="hola" id="saludo2">hola<br>
+		</div>
+		<h1>Operaciones aritmeticas</h1>
+		<div class="cuadro4">
+			<br><br><br>
+			<input type="text" name="" id="num1" placeholder="ingrese el numero 1">
+			<input type="text" name="" id="num2" placeholder="ingrese el numero 2"><br>
+			<input type="button" value="sumar" onclick="suma();"><br>
+			<input type="button" value="resta" onclick="resta();"><br>
+			<input type="button" value="multiplicacion" onclick="multiplicacion();"><br>
+			<input type="button" value="Division" onclick="division();">
+		</div>
+		<div class="cuadro5">
+			<br><br><br><br>
+			<input type="text" name="" id="resp" placeholder="Resultado">
+		</div>
+		
+
+
+	</form></center>
+	</div></center><br><br>
+	
+	
+
+</body>
+</html>
